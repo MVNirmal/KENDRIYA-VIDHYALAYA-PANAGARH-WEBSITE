@@ -1,0 +1,40 @@
+html{
+    align-content: center;
+    align-items: center;
+    background-color: yellow;
+    text-align: center;
+    
+}
+
+#home{
+   align-content: center;
+    align-items: center;
+    background-color: yellow;
+     
+}
+#basicinfo{
+  align-content: center;
+    align-items: center;
+    background-color: yellow;   
+}
+#school{
+    height:200px;
+    width: 400px;
+}
+
+h1{
+    text-decoration: underline;
+}
+
+marquee{
+    font-size: 40px;
+    background-color: yellowgreen;
+    border: 20px;
+    position: fixed;
+  }
+
+section{
+  align-content: center;
+    align-items: center;
+    background-color: yellow;   
+}
