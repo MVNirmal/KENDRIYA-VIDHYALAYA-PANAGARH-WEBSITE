@@ -15,6 +15,14 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" type="text/css" href="style.css">
 
 
@@ -23,7 +31,7 @@
 
 <body>
     <script src="main.js"></script>
-    <nav class="navbar-inverse" style="position: sticky;top: 0;z-index: 99999;">
+    <nav class="navbar-inverse" style="position:relative;top: 0;z-index: 99999;">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
                 <span class="icon-bar"></span>
@@ -32,68 +40,163 @@
             </button>
             <a class="navbar-brand" href="#">M.V.Nirmal</a>
         </div>
-        <div class="collapse navbar-collapse" id="#myNavbar">
-            <ul class="nav navbar-nav">
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav" id="navbar">
                 <li><a href="#home">HOME</a></li>
-                 <li><a href="#basicinfo">BASIC INFO</a></li>
-               <li><a href="#videos">VIDEOS</a></li>
-              
-               
+                <li><a href="#basicinfo">BASIC INFO</a></li>
+                <li><a href="#videos">VIDEOS</a></li>
+                <li><a href="#achievement">ACHIEVEMENTS OF STUDENTS</a></li>
+                <li><a href="#School facilities">SCHOOL FACILITIES</a></li>
+                <li><a href="#whats new">WHATS NEW</a></li>
+
+
             </ul>
 
 
         </div>
 
     </nav>
-    <marquee width="100%" direction="left">KV's to start class 1 admission from April 1.  Schools welcome students with precautionary measures in place. UPSEE Counselling 2020: Round 1 registration begins at upsee ..
+    <center>
+        <marquee width="100%" direction="left">KV's to start class 1 admission from April 1. Schools welcome students with precautionary measures in place. UPSEE Counselling 2020: Round 1 registration begins at upsee ..
 
 
 
-</marquee>
+        </marquee>
+    </center>
     <div class="line"></div>
-   
+
 
     <section id="home">
-        
+
         <span id="img"><img id="logo" src="LOGO.jpg"></span>
         <span id="img2"><img id="school" src="school.jpeg"></span>
-        
+
         <h1>KENDRIYA VIDHYALAYA PANAGARH</h1>
         <h4>Kendriya Vidyalaya Panagarh Durgapur, is a Senior Secondary School (XI-XII), affiliated to Central Board of Secondary Education (CBSE).</h4>
         <h4> The School is a Co-ed Day School, with classes from I to XII. It is an Hindi, English Medium school.</h4>
         <h4> The school is located in Panagarh area of Durgapur. Kendriya Vidyalaya Panagarh was established in 1966. It is a Government School and is part of Kendriya Vidyalaya Sangathan (KVS) and is managed by Defence.</h4>
-                
+
     </section>
     <section id="basicinfo">
-    <h1>BASIC INFO OF KENDRIYA VIDHYALAYA PANGARH</h1>
+        <h1>BASIC INFO OF KENDRIYA VIDHYALAYA PANGARH</h1>
         <div class="line"></div>
-        <h2>YEARS ESTABLISHED</h2>
-        <h4> 1996</h4>
-         <h2>SCHOOL TYPE</h2>
-        <h4> Goverment School</h4>
-        <h2>MANAGEMENT</h2>
-        <h4> Defence</h4>
-        <h2>GENDER</h2>
-        <h4> Co-Education</h4>
-        <h2>BOARDING</h2>
-        <h4> Day School</h4>
-        <h2>GRADES</h2>
-        <h4> Class 'I' to Class 'XII' </h4>
-        <h2>CURRICULUM</h2>
-        <h4> Central Board of Secondary Education (CBSE)</h4>
-            
+        <tt>
+            <h5>CLICK ON THE BUTTONS TO KNOW THE RESPECTIVE INFORMATION</h5>
+        </tt>
+        <button id="b7" onclick="establish()">YEAR ESTABLISHED</button>
+        <div><button id="b2" onclick="manage()">MANAGEMENT</button> </div>
+        <div><button id="b3" onclick="gender()">GENDER OF SCHOOL</button> </div>
+        <div><button id="b4" onclick="boarding()">BOARDING OF SCHOOL</button></div>
+        <div><button id="b5" onclick="grades()">GRADES (CLASSES)</button></div>
+        <div><button id="b6" onclick="curriculum()">CURRICULUM</button></div>
+
     </section>
     <section id="videos">
-        <h1>VIDEOS OF KV PANAGARH</h1>
+        <h1>VIDEOS FROM KV PANAGARH</h1>
         <div class="line"></div>
-       <span> <iframe width="560" height="315" src="https://www.youtube.com/embed/Z5ppmcV3IGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span>
-        
-        <span> <iframe width="560" height="315" src="https://www.youtube.com/embed/8w0abFTklTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </span>
+        <span class="sp"> <iframe width="560" height="315" src="https://www.youtube.com/embed/Z5ppmcV3IGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span>
+
+        <span class="sp"> <iframe width="560" height="315" src="https://www.youtube.com/embed/8w0abFTklTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </span>
         <div><iframe width="560" height="315" src="https://www.youtube.com/embed/wTVw7WyRF4A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div class="line"></div>
-       
+
     </section>
-   
+
+    <section id="achievement">
+        <h1 class="page-header">ACHIEVEMENTS OF STUDENTS</h1>
+        <h3>Exam Toppers of Class 'XII'</h3>
+        <img src="achievement.png">
+        <div class="div"></div>
+        <h3>Students who Secured 10 CGPA</h3>
+        <img src="10%201st.png">
+        <div class="line"></div>
+        <img src="10%202nd.png">
+
+    </section>
+    <br>
+    <section id="School facilities">
+        <h1>Facilities Available in the School</h1>
+        <div class="row">
+            <div class="column"><img class="img-responsive" src="LIBRARY.jpg">
+                <h4>Library</h4>
+            </div>
+
+
+
+            <div class="column"> <img class="img-responsive" src="toilet.jpg">
+                <h4>Toilet</h4>
+            </div>
+
+            <div class="column"> <img class="img-responsive" src="medic%20room.jpg">
+                <h4>Medical Room</h4>
+            </div>
+
+        </div>
+
+
+        <div class="row row-success">
+            <div class="column"> <img class="img-responsive" src="computer%20lab.jpg">
+                <h4>Computer lab</h4>
+            </div>
+
+            <div class="column"> <img class="img-responsive" src="chemistry.jpg">
+                <h4>Chemistry lab</h4>
+            </div>
+
+            <div class="column"> <img class="img-responsive" src="physic.jpg">
+                <h4>Physics lab</h4>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="column"> <img class="img-responsive" src="art%20room.jpg">
+                <h4>Art Room</h4>
+            </div>
+
+            <div class="column"> <img class="img-responsive" src="Work%20education.jpg">
+                <h4>Work Education Room</h4>
+            </div>
+
+            <div class="column"> <img class="img-responsive" src="scout%20ADN%20guides.jpg">
+                <h4>Scouts and Guides</h4>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column"><img class="img-responsive" src="PLay%20GROUnd.jpg">
+                <h4>Play Ground</h4>
+            </div>
+            <div class="column"><img class="img-responsive" src="canteen.jpg">
+                <h4>Canteen</h4>
+            </div>
+        </div>
+    </section>
+    <section id="whats new">
+        <ul class="list-group">
+
+            <li class="list-group-item list-group-item-info col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                <h4> Introducing G suite IDs for techers and students </h4>
+                <img src="G%20suite%20id.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="list-group-item-check  col-lg-7 col-md-7 col-sm-7 col-xs-12">Since online classes are going on due to COVID 19, special G Suite Id have been provided to student and teachers to improve the facilities in the apps like GOOGLE MEET, GOOGLE CLASSROOM, etc.</p>
+
+
+            </li>
+            <br>
+            <hr>
+            <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                <h4>Changes in taking of Annual examination </h4>
+
+                <div class="column"> <img src="online%20test.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12"></div>
+                <div class="column"> <img src="written%20exam.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12"></div>
+                <div class="column"> <img src="online%20oral%20exam.png" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12"></div>
+
+                <p class="list-group-item-check  col-lg-7 col-md-7 col-sm-7 col-xs-12">Since online classes there was only ONLINE TEST. But, when the annual examination of the sesiion 2020-21 came there were 3 parts of the test. Those are ONLINE TEST (GOOGLE FORMS TEST), WRITTEN TEST and ONLINE ORAL TEST.Marks have been divided into these 3 partsof the annual examination.</p>
+
+
+            </li>
+        </ul>
+    </section>
 </body>
 
 </html>
